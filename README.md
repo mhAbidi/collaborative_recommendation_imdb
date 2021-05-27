@@ -30,6 +30,6 @@ And thats what collaborative filtering is all about.
 
      First we gather the data from a reputable source.
      After we have the dataset; we need to make some changes to it; if needed a few changes to the data structure; cleaning the data and such.
-     Then we have to take out a test set; we will use this later to check how good the model is.
+     Then we have to take out a test set; we will use this later to check how good our model is.
  
  
