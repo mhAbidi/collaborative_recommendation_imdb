@@ -12,19 +12,19 @@ In collaborative filtering systems; the user plays an active role.
 For this system to work properly, first it needs a lot of active actors or sensors (or as in our case 'users').
 Then we make smaller and finer groups of the actors based on their taste or "feature similarity".
 
-Check Jupyter Notebook for code and description.
+### Check Jupyter Notebook for code and description.
+
+#### Dataset used for this project:
+
+Movies with Genre and user ratings. 
+
+Source: https://drive.google.com/file/d/1WWQCl9w52M1sXNWd4JSKL7q-HHywk03p/view
+<br>
 
 
-
-
-1. Where to start? Get the data.
-
-     First we gather the data from a reputable source.
-     After we have the dataset; we need to make some changes to it; if needed a few changes to the data structure; cleaning the data and such.
-     Then we have to take out a test set; we will use this later to check how good our model is.
-     
-2. Decision Tree & Random Forest Approach:
-3. Sparce Filter Approach:
-4. Neural Network Based Approach:
+### Approaches To CF:
+1. Sparce Filter Approach
+2. Decision Tree & Random Forest Approach
+3. Neural Network Based Approach
  
  
