@@ -7,10 +7,7 @@ Here we will be working on IMDB movie ratings dataset.
 
 The goal over here is to create an algorithm which can easily and precisely predict which movie the user will enjoy and which movies the user will hate.
 
-Given how the collaborative filtering works, this algorithm is really well suited for such an application.
-In collaborative filtering systems; the user plays an active role.
-For this system to work properly, first it needs a lot of active actors or sensors (or as in our case 'users').
-Then we make smaller and finer groups of the actors based on their taste or "feature similarity".
+Collaborative filtering uses similarities between users and items simultaneously to provide recommendations. This allows for serendipitous recommendations; that is, collaborative filtering models can recommend an item to user A based on the interests of a similar user B. Furthermore, the embeddings can be learned automatically, without relying on hand-engineering of features.
 
 ### Check Jupyter Notebook for code and description.
 
@@ -22,9 +19,13 @@ Source: https://drive.google.com/file/d/1WWQCl9w52M1sXNWd4JSKL7q-HHywk03p/view
 <br>
 
 
+
 ### Approaches To CF:
-1. Sparce Filter Approach
-2. Decision Tree & Random Forest Approach
-3. Neural Network Based Approach
+#### 1. Cosine Similarity
+collaborative_filtering_g_cosine.ipynb
+
+#### 2. Dot-Product Similarity
+
+#### 3. Euclidian Distance
  
  
