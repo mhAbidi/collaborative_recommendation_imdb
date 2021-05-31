@@ -21,8 +21,13 @@ Source: https://drive.google.com/file/d/1WWQCl9w52M1sXNWd4JSKL7q-HHywk03p/view
 
 
 ### Approaches To CF:
+
 #### 1. Cosine Similarity
-collaborative_filtering_g_cosine.ipynb
+collaborative_recommendation.ipynb
+Takes the user interests from  their historic ratings, and similarity with other users; using the cosine similarity;
+then removes the items which the user has already seen; and recommends the items from the  library in order of 
+perceived preference. 
+
 
 #### 2. Dot-Product Similarity
 
